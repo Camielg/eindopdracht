@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/camelcrafts
+    username: camelcrafts
+    password: supersecret
+  jpa:
+    hibernate:
+      ddl-auto: create
+    open-in-view: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
